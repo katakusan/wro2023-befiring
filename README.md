@@ -1,15 +1,15 @@
-#**Future Engineer 2023 season**
+# **Future Engineer 2023 season**
 
-*be firing team 
-
-
-*Teammates: Joe Lin  Michael Chen Maxwell Wong
+* be firing team 
 
 
-*match name: Future Engineer
+* Teammates: Joe Lin  Michael Chen Maxwell Wong
 
 
-*apparatus: Nvida Jetson nano BO1
+* match name: Future Engineer
+
+
+* apparatus: Nvida Jetson nano BO1
 
 
 **Jetson nano set up**
