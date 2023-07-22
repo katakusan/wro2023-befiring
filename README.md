@@ -12,7 +12,7 @@ match name: Future Engineer
 apparatus: Nvida Jetson nano BO1
 
 
-**Jetson nano set**
+**Jetson nano set up**
 
 
 
