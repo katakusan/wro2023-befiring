@@ -33,8 +33,12 @@ next coding the file
 
 ![](https://github.com/katakusan/image/blob/master/image/88888888.jpg)
 
-next put your sd card into the jetson nano 
+next put your sd card into the jetson nano
+
+
 (SD card slot is under the jetson nano ventilated rib)
+
+
 connect the power supply and your jetson nano will be open 
 
 
