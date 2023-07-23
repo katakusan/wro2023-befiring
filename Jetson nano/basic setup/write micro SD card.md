@@ -9,6 +9,7 @@ first, we need to go to this URL
     ```
 
 and you will go to the NAVIDA SD card  write the URL
+! [image] ("C:\Users\user\Downloads\111111111111.jpg")
 
 
 
