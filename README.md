@@ -13,6 +13,8 @@
 
 # Teammates introduce
 
+![](https://github.com/katakusan/image/blob/master/image/IMG20230724231254.jpg)
+
 Joe Lin From Taiwan
 
 age:16
@@ -22,6 +24,8 @@ Hi my name is Joe I'm a coder and writer on this team, the job I'm responsible f
 * research how to use Jetson nano 
 * write the github 
 * research how to use yolov5
+
+![](https://github.com/katakusan/image/blob/master/image/1690213362682.jpg)
 
 Michale Chen From Taiwan
 
