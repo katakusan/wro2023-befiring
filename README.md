@@ -25,10 +25,16 @@ Hi my name is Joe Im a coder and writer in this team, the job I'm responsible fo
 * research how to use yolov5
 
 # apparatus introduce
-on apparatus we choose to use Jetson nano
+For the apparatus, we choose the  Jetson nano
 
-## **about jetson nano**
-### why we are choose Jetson nano 
+For the body, we choose the matrix iron parts
+
+For the camera, we choose the Jetson nano camera-IMX219
+
+
+
+# **about jetson nano**
+## why we are choose Jetson nano? 
 Jetsonnano is a compact single-board computer developed by NVIDIA
 
 It have Low power consumption and compact size Perfect fit to inlay on the car
