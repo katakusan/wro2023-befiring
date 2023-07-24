@@ -1,6 +1,6 @@
 # **Future Engineer 2023 season**
 
-* be firing team 
+* be firing Future
 
 
 * Teammates: Joe Lin  Michael Chen Maxwell Wong
