@@ -25,7 +25,6 @@ Hi my name is Joe Im a coder and writer in this team, the job I'm responsible fo
 * research how to use yolov5
 
 # apparatus introduce
-
 on apparatus we choose to use Jetson nano
 
 ## **about jetson nano**
