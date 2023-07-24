@@ -33,6 +33,18 @@ Hola. My name is Michale, my job in WRO Future Engineers are these:
 * write engineer's notes mainly 
 * training AI model
 
+Maxwell Wong From Taiwan
+
+age:17
+
+Hello my name is Maxwell, the job I'm responsible for is:
+
+* research Ackerman steering
+* car modification
+* car text
+
+
+
 # apparatus introduce
 For the apparatus, we choose the Jetson nano
 
