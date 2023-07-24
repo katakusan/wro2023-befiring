@@ -67,7 +67,8 @@ For the camera, we choose the Jetson Nano camera IMX219
 
 * 3. freedom AI framework support: Jetson nano has more freedom in software development environment, including TensorFlow, PyTorch, Caffe, and ONNX, which allows developers to easily build and train machine learning models
 
-* 4. Connectivity Options: Jetson Nano comes with multiple connectivity options, including USB 3.0, HDMI, Ethernet, GPIO, and CSI camera connectors, allowing integration with peripherals and sensors.
+* 4. More Connectivity Options: Jetson Nano comes with multiple connectivity options, including USB 3.0, HDMI, Ethernet, GPIO, and CSI camera connectors, allowing integration with peripherals and sensors.
+
 
 
 
