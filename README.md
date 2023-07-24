@@ -23,6 +23,16 @@ Hi my name is Joe I'm a coder and writer on this team, the job I'm responsible f
 * write the github 
 * research how to use yolov5
 
+Michale Chen From Taiwan
+
+age:16
+
+Hola. My name is Michale, my job in WRO Future Engineers are these: 
+
+* studied Jetson Nano with Joe 
+* write engineer's notes mainly 
+* training AI model
+
 # apparatus introduce
 For the apparatus, we choose the Jetson nano
 
