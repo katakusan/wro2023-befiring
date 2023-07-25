@@ -67,6 +67,89 @@ Jetson nano version: BO1
 
 ## basic setup 
 
+### write micro sd card
+
+
+first, we need to go to this URL
+
+https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
+
+and you will go to the NAVIDA SD card  write the URL
+
+
+![THIS](https://github.com/katakusan/image/blob/b154a496a88a275734106394a4eb001244ef34a7/image/111111111111.jpg)
+
+
+![](https://github.com/katakusan/image/blob/master/image/222222222222.jpg)
+
+
+![](https://github.com/katakusan/image/blob/master/image/3333333333.jpg)
+
+Downloads Eteach
+
+![](https://github.com/katakusan/image/blob/master/image/4444444.jpg)
+
+next coding the file 
+
+![](https://github.com/katakusan/image/blob/master/image/555555.jpg)
+
+![](https://github.com/katakusan/image/blob/master/image/66666666.jpg)
+
+![](https://github.com/katakusan/image/blob/master/image/777777777.jpg)
+
+![](https://github.com/katakusan/image/blob/master/image/88888888.jpg)
+
+next put your sd card into the jetson nano
+
+
+(SD card slot is under the jetson nano ventilated rib)
+
+
+connect the power supply and your jetson nano will be open
+
+### fan setup
+
+first lock fan on jetson nano  ventilated rib
+
+* Like this
+
+![](https://github.com/katakusan/image/blob/master/image/IMG_20230723_173857.jpg)
+
+Use this code to open fan
+
+ ```
+   sudo sh -c 'echo 255 > /sys/devices/pwm-fan/target_pwm' 
+ ```
+
+and write this Lets when your Jetson nano open your fan will be open
+
+```
+cd /etc
+
+sudo touch rc.local
+
+sudo chmod u+x rc.local
+
+sudo vim rc.local
+```
+open a vim file
+
+```
+#!/bin/bash
+
+sleep 10
+
+sudo /usr/bin/jetson_clocks
+
+sudo sh -c 'echo 255 > /sys/devices/pwm-fan/target_pwm'
+```
+write this into your vim file 
+
+press ESC and write :wp and press enter
+
+the fan is open when your Jetson nano open 
+
+
 
 
 
