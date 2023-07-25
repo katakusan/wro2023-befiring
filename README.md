@@ -149,6 +149,10 @@ press ESC and write :wp and press enter
 
 the fan is open when your Jetson nano open 
 
+## Image recognition
+
+
+
 
 
 
