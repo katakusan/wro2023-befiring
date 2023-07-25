@@ -79,6 +79,8 @@ pip3 install {you miss dependencies}
 ```
 If you missing dependencies is ultralytics you need to download python 3.8 to download it
 
-[python 3.8 download teach](https://markdownlivepreview.com)
+[python 3.8 download teach](https://github.com/katakusan/wro2023-/blob/main/Jetson%20nano/yolov5/python3.8.md)
+
+
 
 
