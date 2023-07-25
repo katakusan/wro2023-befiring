@@ -47,7 +47,7 @@ Hello my name is Maxwell, the job I'm responsible for is:
 
 * research Ackerman steering
 * car modification
-* car text
+* car test
 
 
 
