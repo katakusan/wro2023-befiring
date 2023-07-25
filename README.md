@@ -51,15 +51,6 @@ Hello my name is Maxwell, the job I'm responsible for is:
 
 
 
-# apparatus introduce
-For the apparatus, we choose the Jetson nano
-
-For the body, we choose the matrix iron parts
-
-For the camera, we choose the Jetson Nano camera IMX219
-
-
-
 # **about jetson nano**
 ## why we are choose Jetson nano? 
 
@@ -71,6 +62,10 @@ For the camera, we choose the Jetson Nano camera IMX219
 
 * 4. More Connectivity Options: Jetson Nano comes with multiple connectivity options, including USB 3.0, HDMI, Ethernet, GPIO, and CSI camera connectors, allowing integration with peripherals and sensors.
 
+
+Jetson nano version: BO1
+
+## basic setup 
 
 
 
