@@ -37,7 +37,7 @@ Hola. My name is Michale, my job in WRO Future Engineers are these:
 * write engineer's notes mainly 
 * training AI model
 
-![]()
+![](https://github.com/katakusan/image/blob/master/image/126321.jpg)
 
 Maxwell Wong From Taiwan
 
