@@ -24,5 +24,10 @@ numpy==1.19.4
 modfication gitpython matplotlib and  numpy version
 
 ```
-
+# torch>=1.7.0
+# torchvision>=0.8.1
+# ultralytics
 ```
+mark torch torchvision ultralytics
+
+basic setup
