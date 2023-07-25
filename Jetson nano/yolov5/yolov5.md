@@ -72,7 +72,7 @@ wait some time and Torchvision will be download
 
 Next open yolov5 folder to test and check for any missing dependencies
 
-**If you miss any dependencies print this code**
+**If you missing any dependencies print this code**
 
 ```
 pip3 install {you miss dependencies}
