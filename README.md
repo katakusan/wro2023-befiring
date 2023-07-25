@@ -37,6 +37,8 @@ Hola. My name is Michale, my job in WRO Future Engineers are these:
 * write engineer's notes mainly 
 * training AI model
 
+![]()
+
 Maxwell Wong From Taiwan
 
 age:17
