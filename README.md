@@ -107,7 +107,10 @@ next put your sd card into the jetson nano
 
 connect the power supply and your jetson nano will be open
 
-**We encountered  problem: When we burned the SD card, we burned a higher version of Jetpack. However, the Nano 4GB B01 only supports up to version 4.6 of Jetpack. We spent a lot of time searching for the burning file and looking for information on the internet. Later, during a conversation with Chat GPT, we realized that there was a version mismatch issue.**
+**We encountered  problem:I cannot use the SD card burner.**
+
+
+**Solution: We searched for a lot of information online and finally discovered that it was a Jetpack version issue. Because we were using an older hardware version of Nano, the highest supported Jetpack version is 4.6. We used the higher version of 5.1, which caused it to not work.**
 
 ### fan setup
 
@@ -150,6 +153,10 @@ write this into your vim file
 press ESC and write :wp and press enter
 
 the fan is open when your Jetson nano open 
+
+**We encountered  problem:  We can't find the fan header. **
+
+**Solution: We initially thought that the fan was connected to the GPIO pins. However, after searching online, we discovered that the fan has its own dedicated connector labeled "J15 FAN".**
 
 ## Image recognition
 
