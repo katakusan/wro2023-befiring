@@ -51,7 +51,7 @@ Hello my name is Maxwell, the job I'm responsible for is:
 
 
 
-# **about jetson nano**
+# **About jetson nano**
 ## why we are choose Jetson nano? 
 
 * 1. Low power consumption and compact size: Jetson Nano consumes less than 10 watts of power and has a compact size, making it highly suitable for self-propelled vehicle
@@ -65,9 +65,9 @@ Hello my name is Maxwell, the job I'm responsible for is:
 
 Jetson nano version: BO1
 
-## basic setup 
+## Basic setup 
 
-### write micro sd card
+### Write micro sd card
 
 
 first, we need to go to this URL
@@ -112,7 +112,7 @@ connect the power supply and your jetson nano will be open
 
 **Solution: We searched for a lot of information online and finally discovered that it was a Jetpack version issue. Because we were using an older hardware version of Nano, the highest supported Jetpack version is 4.6. We used the higher version of 5.1, which caused it to not work.**
 
-### fan setup
+### Fan setup
 
 First lock fan on jetson nano  ventilated rib
 
@@ -159,6 +159,62 @@ the fan is open when your Jetson nano open
 **Solution: We initially thought that the fan was connected to the GPIO pins. However, after searching online, we discovered that the fan has its own dedicated connector labeled "J15 FAN".**
 
 ## Image recognition
+
+Open Jetson nano terminal 
+
+```
+sudo apt update
+sudo apt install -y python3-pip
+pip3 install --upgrade pip
+
+```
+Upgrade the system and download pip.
+
+```
+git clone https://github.com/ultralytics/yolov5
+```
+clone yolov5 file on your Jetson nano
+
+```
+sudo apt upgrade
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
