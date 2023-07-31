@@ -114,7 +114,7 @@ connect the power supply and your jetson nano will be open
 
 ### fan setup
 
-first lock fan on jetson nano  ventilated rib
+First lock fan on jetson nano  ventilated rib
 
 * Like this
 
