@@ -107,7 +107,7 @@ next put your sd card into the jetson nano
 
 connect the power supply and your jetson nano will be open
 
-**We encountered a problem: When we burned the SD card, we burned a higher version of Jetpack. However, the Nano 4GB B01 only supports up to version 4.6 of Jetpack. We spent a lot of time searching for the burning file and looking for information on the internet. Later, during a conversation with Chat GPT, we realized that there was a version mismatch issue.**
+**We encountered  problem: When we burned the SD card, we burned a higher version of Jetpack. However, the Nano 4GB B01 only supports up to version 4.6 of Jetpack. We spent a lot of time searching for the burning file and looking for information on the internet. Later, during a conversation with Chat GPT, we realized that there was a version mismatch issue.**
 
 ### fan setup
 
