@@ -154,7 +154,7 @@ press ESC and write :wp and press enter
 
 the fan is open when your Jetson nano open 
 
-**We encountered  problem:  We can't find the fan header. **
+**We encountered  problem:  We can't find the fan header.**
 
 **Solution: We initially thought that the fan was connected to the GPIO pins. However, after searching online, we discovered that the fan has its own dedicated connector labeled "J15 FAN".**
 
