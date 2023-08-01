@@ -69,7 +69,7 @@ Jetson nano version: BO1
 
 ### Write micro sd card
 
-write sd card URL: https://github.com/katakusan/wro2023-befiring/blob/main/Jetson%20nano/basic%20setup/write%20micro%20SD%20card.md
+[**_go to write sd card_**](https://github.com/katakusan/wro2023-befiring/blob/main/README.md) 
 
 **We encountered  problem:I cannot use the SD card burner.**
 
