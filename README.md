@@ -236,23 +236,73 @@ After multiple attempts, we came up with a new approach. Instead of relying on t
 
 ## Training AI
 
-```
+### mark detection
 
 ```
+git clone https://github.com/CIRCUSPi/Jetson-capture.git
+cd Jetson-capture/
+```
+
+Download image scraping tool from GitHub.
+
+```
+python3 capture.py
+```
+
+open camera press s to collection image 
+
+The number of currently captured photos will be displayed in the top right corner, and the photos will be stored in the 'images' folder **(it is recommended to have at least 250-300 annotations per category to train a relatively good model).**
+
+* Roboflow
+
+To label the identified objects, open a browser and search for 'Roboflow' to enter the website. Click on 'Sign up' in the top right corner to register your account.
+
+After entering the workspace, create a new project by clicking on 'Create New Project'. Choose the project type as 'Object Detection (Bounding Box)' and fill in the rest of the information as desired.
+
+Next, upload the captured photos to the website by clicking on 'Select Folder'. Locate the 'images' folder where we stored our captured photos and click on 'Upload'. A confirmation window will appear, click 'Upload' again to upload our photos. Roboflow will display all the photos in the window for us to review the data.
+
+Click on 'Finish Uploading' in the top right corner to import all the photos into the project.
+
+Once the photos are uploaded, the page will ask if we want to label the images. Click on 'Assign Images' to proceed.
+
+Click on an image to start the labeling process. Use the 'Bounding Box' tool from the tools panel on the right side. Drag and draw a box around the object, and then specify the label for that box by entering your desired target name.
+
+(In Roboflow, different labels are distinguished by different colors. Label all your photos one by one. Although the process may be tedious and time-consuming, the accuracy of the data labeling greatly affects the training of the model. Make sure to label correctly and avoid including too much background in the boxes.)
+
+Click on the left-hand side menu and select 'Versions'. Then, click on 'Export Dataset' and choose 'YOLOv5 PyTorch'. Select the option to display the download code and copy the information provided above.
+
+* colab training
+
+[colab URL](https://colab.research.google.com/drive/1g5K7OQkrMCSvsT8dKqXw1Fou2aMF76YR?usp=sharing)
+
+```
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="wlA2z7Dzjfndj34HWuKa")
+project = rf.workspace("recomputer").project("recomputer")
+dataset = project.version(1).download("yolov5")
+
+```
+
+Replace this program with the code you just copied.
+
+```
+!python train.py --img 640 --batch 128 --epochs 10 --data {dataset.location}/data.yaml --weights yolov5n.pt --cache
+```
 
 
+img: define input image size
 
+batch: determine batch size
 
+epochs: define the number of training epochs. (Note: often, 3000+ are common here!)
 
+data: Our dataset locaiton is saved in the dataset.location
 
+weights: specify a path to weights to start transfer learning from. Here we choose the generic COCO pretrained checkpoint.
 
-
-
-
-
-
-
-
+cache: cache images for faster training
 
 
 
