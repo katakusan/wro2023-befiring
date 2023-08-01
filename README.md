@@ -234,7 +234,7 @@ After multiple attempts, we came up with a new approach. Instead of relying on t
 
 **Solution: We found that the Ultralytics package was not being downloaded, and despite trying various methods, we were unable to resolve the issue. However, while searching for information online, we came across a video that revealed that Ultralytics needs to be downloaded using Python 3.8 (it is the old solution).**
 
-
+# Train mode
 
 
 
