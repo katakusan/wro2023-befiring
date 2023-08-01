@@ -38,6 +38,7 @@ next put your sd card into the jetson nano
 
 connect the power supply and your jetson nano will be open 
 
+[**_back to README.md_**](https://github.com/katakusan/wro2023-befiring/blob/main/README.md)
 
 
 
