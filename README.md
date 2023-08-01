@@ -71,7 +71,7 @@ Jetson nano version: BO1
 
 
 
-[**_go to write sd card_**](https://github.com/katakusan/wro2023-befiring/blob/main/Jetson%20nano/basic%20setup/write%20micro%20SD%20card.md) 
+[**_write sd card URL_**](https://github.com/katakusan/wro2023-befiring/blob/main/Jetson%20nano/basic%20setup/write%20micro%20SD%20card.md) 
 
 
 
