@@ -209,7 +209,7 @@ Update pip and download yolov5.
 python3.8 detect.py --weights yolov5n6.pt --nosave --source 0
 ```
 
-open yolov5 detect  _weights version can be chang ex:yolov5s yolov5m......_
+open yolov5 detect  (_weights version can be chang ex:yolov5s yolov5m......_)
 
 
 
