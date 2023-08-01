@@ -230,9 +230,9 @@ After multiple attempts, we came up with a new approach. Instead of relying on t
   * Cons: The process is complicated, prone to errors, and time-consuming.
 
 
+**We encountered problem: When we initially tried the old solution, we discovered that directly using the requirements.txt file to download the required packages was not working.**
 
-
-
+**Solution: We found that the Ultralytics package was not being downloaded, and despite trying various methods, we were unable to resolve the issue. However, while searching for information online, we came across a video that revealed that Ultralytics needs to be downloaded using Python 3.8 (it is the old solution).**
 
 
 
