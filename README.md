@@ -36,6 +36,7 @@ Hola. My name is Michale, my job in WRO Future Engineers are these:
 * studied Jetson Nano with Joe 
 * write engineer's notes mainly 
 * training AI model
+* Prepare for filing
 
 ![](https://github.com/katakusan/image/blob/master/image/126321.jpg)
 
@@ -48,6 +49,7 @@ Hello my name is Maxwell, the job I'm responsible for is:
 * research Ackerman steering
 * car modification
 * car test
+* Prepare for filing
 
 
 
@@ -203,6 +205,17 @@ open yolov5 detect  (_weights version can be chang ex:yolov5s yolov5m......_)
 and you can detect like this
 
 ![](https://github.com/katakusan/image/blob/master/image/image.jpg)
+
+
+We have an old solution: [**_yolov5 old_**](https://github.com/katakusan/wro2023-befiring/tree/main/Jetson%20nano/yolov5%20old)
+
+
+**What are the differences between the new and old solutions?**
+
+
+In the old solution, we followed the common practice found online, which involved using the requirements.txt file from yolov5 to download all the necessary files. However, when trying to download Ultralytics, which was not included in the requirements.txt file, we had to set up a Python 3.8 environment specifically for this purpose, which took a lot of time.
+
+After multiple attempts, we came up with a new approach. Instead of relying on the requirements.txt file from yolov5, we directly updated pip to the Python 3.8 version and then proceeded to download the official yolov5 package provided by Ultralytics. This method saved us a lot of time as we no longer needed to set up a separate Python 3.8 environment specifically for downloading Ultralytics. The direct download of the official package proved to be a more efficient and straightforward solution for our needs.
 
 
 
