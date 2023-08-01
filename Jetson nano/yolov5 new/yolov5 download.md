@@ -1,0 +1,2 @@
+Open Jetson nano terminal 
+
