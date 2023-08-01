@@ -179,9 +179,37 @@ clone yolov5 file on your Jetson nano
 sudo apt upgrade
 ```
 
+Upgrade your hardware environment.
 
+```
+sudo apt install build-essential libssl-dev zlib1g-dev libncurses5-dev libncursesw5-dev libreadline-dev libsqlite3-dev libgdbm-dev libdb5.3-dev libbz2-dev libexpat1-dev liblzma-dev libffi-dev libc6-dev
+```
 
+Install necessary packages.
 
+```
+wget https://www.python.org/ftp/python/3.8.12/Python-3.8.12.tar.xz
+tar -xf Python-3.8.12.tar.xz
+cd Python-3.8.12
+./configure --enable-optimizations
+make -j4 
+sudo make altinstall
+``` 
+Install python3.8
+
+```
+python3.8 -m pip install --upgrade pip
+
+python3.8 -m pip install yolov5
+```
+
+Update pip and download yolov5.
+
+```
+python3.8 detect.py --weights yolov5n6.pt --nosave --source 0
+```
+
+open yolov5 detect  _weights version can be chang ex:yolov5s yolov5m......_
 
 
 
