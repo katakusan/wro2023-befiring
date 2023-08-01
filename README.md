@@ -143,11 +143,30 @@ git clone https://github.com/ultralytics/yolov5
 ```
 clone yolov5 file on your Jetson nano
 
+download pytorch and torchvision
+
+```
+wget https://nvidia.box.com/shared/static/fjtbno0vpo676a25cgvuqc1wty0fkkg6.whl -O torch-1.10.0-cp36-cp36m-linux_aarch64.whl
+
+pip3 install torch-1.10.0-cp36-cp36m-linux_aarch64.whl
+```
+wait some time and pytorch will be download
+
+```
+cd
+sudo apt install -y libjpeg-dev zlib1g-dev
+git clone --branch v0.9.0 https://github.com/pytorch/vision torchvision
+cd torchvision
+sudo python3 setup.py install
+```
+
+wait some time and Torchvision will be download
+
 ```
 sudo apt upgrade
 ```
 
-Upgrade your hardware environment.
+Upgrade 
 
 ```
 sudo apt install build-essential libssl-dev zlib1g-dev libncurses5-dev libncursesw5-dev libreadline-dev libsqlite3-dev libgdbm-dev libdb5.3-dev libbz2-dev libexpat1-dev liblzma-dev libffi-dev libc6-dev
