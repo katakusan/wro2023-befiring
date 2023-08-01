@@ -126,7 +126,7 @@ the fan is open when your Jetson nano open
 
 **We encountered  problem:  We can't find the fan header.**
 
-**Solution: We initially thought that the fan was connected to the GPIO pins. However, after searching online, we discovered that the fan has its own dedicated connector labeled "J15 FAN".**
+**Solution: We initially thought that the fan was connected to the GPIO pins. However, after searching online, we discovered that the fan has its dedicated connector labeled "J15 FAN".**
 
 ## Image recognition
 
@@ -228,6 +228,9 @@ After multiple attempts, we came up with a new approach. Instead of relying on t
   * Pros: The old solution, which involved setting up a separate environment, doesn't affect the original Python 3.6 environment and is more convenient to work with.
   
   * Cons: The process is complicated, prone to errors, and time-consuming.
+
+
+
 
 
 
