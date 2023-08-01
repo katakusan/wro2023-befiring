@@ -217,7 +217,17 @@ In the old solution, we followed the common practice found online, which involve
 
 After multiple attempts, we came up with a new approach. Instead of relying on the requirements.txt file from yolov5, we directly updated pip to the Python 3.8 version and then proceeded to download the official yolov5 package provided by Ultralytics. This method saved us a lot of time as we no longer needed to set up a separate Python 3.8 environment specifically for downloading Ultralytics. The direct download of the official package proved to be a more efficient and straightforward solution for our needs.
 
+* yolov5 new
 
+  * Pros: The new solution simplifies the previously cumbersome process and saves a significant amount of time.
+
+  * Cons: Updating pip may cause conflicts with Python 3.6 if you need to use it.
+
+* yolov5 old
+
+  * Pros: The old solution, which involved setting up a separate environment, doesn't affect the original Python 3.6 environment and is more convenient to work with.
+  
+  * Cons: The process is complicated, prone to errors, and time-consuming.
 
 
 
