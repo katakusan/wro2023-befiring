@@ -304,6 +304,14 @@ weights: specify a path to weights to start transfer learning from. Here we choo
 
 cache: cache images for faster training
 
+Click the button at the top right corner to connect to the runtime. Then click "Run all" to execute. After the execution is finished, you will get a file called "Best.pt". Next, put it into the yolov5 folder and execute the following code.
+
+```
+python3.8 detect.py --weights best.pt --source 0 --nosave
+```
+
+Now you can run the AI recognition that you have trained.
+
 
 
 
