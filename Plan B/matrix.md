@@ -22,6 +22,13 @@ The main objective of the program is to control the vehicle's movement while mai
 
 * Solution: Since the vehicle transitions from white to the color of the line when passing over it, the color sensor readings are set within a specific range.
 
+* Issue 3: The ultrasonic sensor exhibits a delay when measuring over long distances.
+
+* Solution: After continuous testing, we found that the laser sensor provides higher accuracy than the ultrasonic sensor for long-distance measurements. As a result, we replaced the ultrasonic sensor with the laser sensor.
+
+
+
+
 
 
 
