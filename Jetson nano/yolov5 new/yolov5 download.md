@@ -65,3 +65,4 @@ python3.8 detect.py --weights yolov5n6.pt --nosave --source 0
 open yolov5 detect  (_weights version can be chang ex:yolov5s yolov5m......_)
 
 **Beware: The number after "source" represents the camera name. The default name is usually 0. If there are more than two cameras set up, you can use the following code to find the camera.**
+
