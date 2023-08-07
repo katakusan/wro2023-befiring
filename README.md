@@ -27,11 +27,11 @@ Hi my name is Joe I'm a coder and writer on this team, the job I'm responsible f
 
 ![](https://github.com/katakusan/image/blob/master/image/1690213362682.jpg)
 
-Michale Chen From Taiwan
+Michael Chen From Taiwan
 
 age:16
 
-Hola. My name is Michale, my job in WRO Future Engineers are these: 
+Hola. My name is Michael, my job in WRO Future Engineers are these: 
 
 * studied Jetson Nano with Joe 
 * write engineer's notes mainly 
