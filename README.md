@@ -312,6 +312,20 @@ python3.8 detect.py --weights best.pt --source 0 --nosave
 
 Now you can run the AI recognition that you have trained.
 
+## Using Matrix's Pixy camera for recognition
+
+### Why do we use Matrix when we have the Jetson Nano
+
+Our understanding of the Matrixis greater than Jetson Nano. In order to have a backup plan, we want to first work on a contingency plan.
+
+### Operation
+
+* Planning
+
+Using the Pixy camera for obstacle recognition and employing side-mounted laser sensors to detect inner/outer walls and maintain the central position.
+
+
+
 
 
 
