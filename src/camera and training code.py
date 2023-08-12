@@ -26,7 +26,7 @@ datasets = {}
 for name in DATASETS:
     datasets[name] = XYDataset(TASK + '_' + name, CATEGORIES, TRANSFORMS, random_hflip=True)
 
-    import cv2
+import cv2
 import ipywidgets
 import traitlets
 from IPython.display import display
@@ -91,3 +91,34 @@ data_collection_widget = ipywidgets.VBox([
 ])
 
 display(data_collection_widget)
+
+
+import torch
+import torchvision
+
+device = torch.device('cuda')
+output_dim = 2 * len(dataset.categories)  # x, y coordinate for each category
+model = torchvision.models.resnet18(pretrained=True)
+model.fc = torch.nn.Linear(512, output_dim)
+model = model.to(device)
+
+model_save_button = ipywidgets.Button(description='save model')
+model_load_button = ipywidgets.Button(description='load model')
+model_path_widget = ipywidgets.Text(description='model path', value='road_following_model.pth')
+
+def load_model(c):
+    model.load_state_dict(torch.load(model_path_widget.value))
+model_load_button.on_click(load_model)
+    
+def save_model(c):
+    torch.save(model.state_dict(), model_path_widget.value)
+model_save_button.on_click(save_model)
+
+model_widget = ipywidgets.VBox([
+    model_path_widget,
+    ipywidgets.HBox([model_load_button, model_save_button])
+])
+
+
+display(model_widget)
+
