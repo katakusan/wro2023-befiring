@@ -26,7 +26,7 @@ The main objective of the program is to control the vehicle's movement while mai
 
 * Solution: After continuous testing, we found that the laser sensor provides higher accuracy than the ultrasonic sensor for long-distance measurements. As a result, we replaced the ultrasonic sensor with the laser sensor.
 
-
+* Issue 4:
 
 
 
