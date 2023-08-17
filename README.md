@@ -314,7 +314,7 @@ Now you can run the AI recognition that you have trained.
 
 ## Our demo video
 
-![](https://youtube.com/shorts/cx-yjQf59f0)
+[**_here_**](https://youtube.com/shorts/cx-yjQf59f0)
 
 ## Using Matrix's Pixy camera for recognition
 
