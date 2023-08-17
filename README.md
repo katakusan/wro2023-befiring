@@ -312,6 +312,10 @@ python3.8 detect.py --weights best.pt --source 0 --nosave
 
 Now you can run the AI recognition that you have trained.
 
+## Our demo video
+
+![](https://youtube.com/shorts/cx-yjQf59f0)
+
 ## Using Matrix's Pixy camera for recognition
 
 ### Why do we use Matrix when we have the Jetson Nano
