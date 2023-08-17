@@ -328,8 +328,16 @@ Our understanding of the Matrixis greater than Jetson Nano. In order to have a b
 
 Using the Pixy camera for obstacle recognition and employing side-mounted laser sensors to detect inner/outer walls and maintain the central position.
 
+* building
 
+We used Matrix iron components to build the entire vehicle, employing the Ackerman principle for steering. Gears are used to drive the motor and the tires.
 
+* Challenges encountered
+
+We used a color sensor at first, but the problem is our car's speed was too fast. The color sensor can't recognize color on the field.
+Then we tried to use Pixy camera recognize color lines, but failed either.
+In the end, We just installed another laser sensor at the front of the vehicle.
+Finally, It knows where it can turn.
 
 
 
