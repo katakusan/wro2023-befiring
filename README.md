@@ -56,7 +56,8 @@ Hello my name is Maxwell, the job I'm responsible for is:
 # **About jetson nano**
 ## why we are choose Jetson nano? 
 
-* 1. Low power consumption and compact size: Jetson Nano consumes less than 10 watts of power and has a compact size, making it highly suitable for self-propelled vehicle
+* 1. Low power consumption and Tiny size: Jetson Nano consumes less than 10 watts of power and has a Tiny
+ size, making it highly suitable for self-propelled vehicle
 
 * 2. High-performance GPU: Jetson nano has powerful GPU than other apparatus, a higher GPU can be the camera run faster
 
@@ -65,7 +66,7 @@ Hello my name is Maxwell, the job I'm responsible for is:
 * 4. More Connectivity Options: Jetson Nano comes with multiple connectivity options, including USB 3.0, HDMI, Ethernet, GPIO, and CSI camera connectors, allowing integration with peripherals and sensors.
 
 
-Jetson nano version: BO1
+Jetson nano version: 4GB
 
 ## Basic setup 
 
